@@ -6,3 +6,4 @@ email: me@example.com
 twitter: twitterusername
 github: gitusername
 permalink: /:title
+description: Hi, This is <b>block-log</b>.<br>A Jekyll theme build with a minimalist blocks
