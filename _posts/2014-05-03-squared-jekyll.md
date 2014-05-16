@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Squared - A Minimalistic Jekyll Theme"
+title:  "Block-Log - A Block Jekyll Theme"
 date:   2014-06-09 14:19:00
 categories: jekyll, themes
 ---
