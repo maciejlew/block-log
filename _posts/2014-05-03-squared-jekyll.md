@@ -3,6 +3,7 @@ layout: post
 title:  "Block-Log - A Block Jekyll Theme"
 date:   2014-06-09 14:19:00
 categories: jekyll, themes
+permalink: /about
 ---
 <img src="/img/squared.png" title="Squared - A Minimalistic Jekyll Theme" alt="Squared - A Minimalistic Jekyll Theme">
 I have designed a new theme for my blog , its based on the colors of Flat UI and it is minimalistic.Today I share it with the world!!!.
