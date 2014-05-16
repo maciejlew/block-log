@@ -5,3 +5,4 @@ disqus-id: anandu
 email: me@example.com
 twitter: twitterusername
 github: gitusername
+permalink: /:title
