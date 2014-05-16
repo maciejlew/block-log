@@ -5,20 +5,20 @@ date:   2014-06-09 14:19:00
 categories: jekyll, themes
 permalink: /about
 ---
-<img src="http://anandu.info/img/block-log.png" title="Squared - A Minimalistic Jekyll Theme" alt="Squared - A Minimalistic Jekyll Theme">
+<img src="http://anandu.info/img/block-log.png">
 I have designed a new theme for my blog , its based on the colors of Flat UI and it is minimalistic.Today I share it with the world!!!.
 
-[Live Demo](http://anandu.info/squared)
+[Live Demo](http://anandu.info/block-log)
 
-[Download](https://github.com/anandubajith/squared/archive/master.zip)
+[Download](https://github.com/anandubajith/block-log/archive/master.zip)
 
-[Github Repo](https://github.com/anandubajith/squared)
+[Github Repo](https://github.com/anandubajith/block-log)
 
 
 Setting up
 ====================
 To start you own blog, simply git clone the repository on github. You could also press the "fork" button on github.
-<pre><code>git clone https://github.com/anandubajith/squared.git</code></pre>
+<pre><code>git clone https://github.com/anandubajith/block-log.git</code></pre>
 Then you will need to edit the _config.yml file at the root of repository.
 
 To add your own posts, add a file to the _posts directory which has the name year-month-day-title.md. 
@@ -30,23 +30,24 @@ Things to change on `_config.yml`
 ====================
 There is a config file at the root called `_config.yml`. By Default it looks like:
 
-    name: Squared Theme
+    name: block-log
+    description: Hi, This is <b>block-log</b>.<br>A Jekyll theme build with minimalist blocks
     markdown: redcarpet
-    permalink: /:title
+    pygments: true
     disqus-id: anandu
-    url: http%3A%2F%2Fanandu.info 
-    twitter-username: anandubajith
-    author: Anandu
-
-You will need to change <code>name</code> , <code>url</code> , <code>twitter-username</code> and <code>author</code>. All others are optional, Here is what the variables mean.<br>
+    email: me@example.com
+    twitter: twitterusername
+    github: gitusername
+    
+You will need to change <code>name</code> , <code>url</code> , <code>twitter-username</code> and <code>github</code>. All others are optional, Here is what the variables mean.<br>
 
 <code>name</code> - The name of your jekyll site.<br>
+<code>description</code> - A description for your site<br>
 <code>markdown</code> - The preferred markdown to use. <br>
-<code>permalink</code> - the permalink to use for your posts.<br>
 <code>disqus-id</code> - the disqus id, if not set comments will not be shown.<br>
-<code>url</code> - The parsed URL of your site.<br>
 <code>twitter-username</code> - Your Twitter username , used while sharing.<br>
-<code>author</code> - Your Name!!.<br><br>
+<code>email</code> - your email,if unset willnot be shown<br>
+<code>github</code> - Your github username<br><br>
 
 For more information on Jekyll, visit their [wiki on github](https://github.com/mojombo/jekyll/wiki).
 
@@ -75,4 +76,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
